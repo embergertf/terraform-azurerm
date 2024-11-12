@@ -2,9 +2,9 @@
 # Copyright 2024 Emmanuel Bergerat
 #
 
-# -
-# - Required Terraform providers & versions
-# -
+#--------------------------------------------------------------
+#   Example #{MODULEDISPLAYNAME}# required Terraform providers with their versions
+#--------------------------------------------------------------
 terraform {
   required_providers {
     azurerm = {

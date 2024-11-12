@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   Test #{MODULEDISPLAYNAME}# module variables' values
+#   Example #{MODULEDISPLAYNAME}# values
 #--------------------------------------------------------------
 naming_values = {
   region_code     = "uswe2"

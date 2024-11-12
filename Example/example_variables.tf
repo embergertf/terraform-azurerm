@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   Test #{MODULEDISPLAYNAME}# module variables
+#   Example #{MODULEDISPLAYNAME}# variables
 #--------------------------------------------------------------
 #   / Naming
 variable "name_override" { default = null }

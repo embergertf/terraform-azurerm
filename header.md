@@ -9,9 +9,9 @@ This #{MODULEDISPLAYNAME}# module provides the following features:
 ## Example
 
 ```yaml
-module "rg_name" {
+module "#{MODULECODE}#_example" {
   # Local use
-  #source = "../../terraform-azurerm-base"
+  #source = "../../terraform-azurerm-#{MODULECODE}#"
 
   # Terraform Cloud/Enterprise use
   source  = "app.terraform.io/embergertf/#{MODULECODE}#/azurerm"
@@ -19,9 +19,9 @@ module "rg_name" {
 
   # Naming convention
   naming_values = module.rg.naming_values
-  # Key vault settings
+
+  # #{MODULEDISPLAYNAME}# settings
   resource_group_name = module.rg.resource_group_name
   additional_tags = var.#{MODULECODE}#_additional_tags
 }
-
 ```

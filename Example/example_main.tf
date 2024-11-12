@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   Test #{MODULEDISPLAYNAME}# module Main
+#   Example #{MODULEDISPLAYNAME}# main
 #--------------------------------------------------------------
 #   / Resource Group
 module "rg" {
