@@ -7,23 +7,22 @@
 #--------------------------------------------------------------
 
 # ############################   #{MODULEDISPLAYNAME}#   ############################
-output "acr_name" {
-  value       = module.acr_module_localtest.name
-  description = "Azure Container Registry name."
+output "#{MODULECODE}#_name" {
+  value       = module.#{MODULECODE}#_module_localtest.name
+  description = "#{MODULEDISPLAYNAME}# name."
 }
-output "acr_location" {
-  value       = module.acr_module_localtest.location
-  description = "Azure Container Registry location."
+output "#{MODULECODE}#_location" {
+  value       = module.#{MODULECODE}#_module_localtest.location
+  description = "#{MODULEDISPLAYNAME}# location."
 }
-output "acr_random_suffix" {
-  value       = module.acr_module_localtest.random_suffix
-  description = "Randomized piece of the Azure Container Registry name when \"`add_random = true`\"."
+output "#{MODULECODE}#_random_suffix" {
+  value       = module.#{MODULECODE}#_module_localtest.random_suffix
+  description = "Randomized piece of the #{MODULEDISPLAYNAME}# name when \"`add_random = true`\"."
 }
-output "acr_tags" {
-  value       = module.acr_module_localtest.tags
-  description = "Azure Container Registry tags."
+output "#{MODULECODE}#_tags" {
+  value       = module.#{MODULECODE}#_module_localtest.tags
+  description = "#{MODULEDISPLAYNAME}# tags."
 }
-
 
 # ############################   DEBUG                ############################
 output "var_naming_values" {
