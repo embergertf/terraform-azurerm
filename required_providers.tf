@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   #{MODULEDISPLAYNAME}# required Terraform providers with their versions
+#   #{MODULEDISPLAYNAME}# module required providers and their versions
 #--------------------------------------------------------------
 terraform {
   required_providers {
