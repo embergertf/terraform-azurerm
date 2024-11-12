@@ -74,7 +74,7 @@ variable "owner" {
   description = "(Optional) Deployed resources owner."
   default     = null
 }
-variable "#{MODULECODE}#_additional_tags" {
+variable "additional_tags" {
   description = "(Optional) Additional tags for the Resource Group."
   type        = map(string)
   default     = null
