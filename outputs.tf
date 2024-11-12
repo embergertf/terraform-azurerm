@@ -15,6 +15,10 @@ output "id" {
   value       = azurerm_xxx_yyy.this.id
   description = "#{MODULEDISPLAYNAME}# ID."
 }
+output "location" {
+  value       = azurerm_xxx_yyy.this.location
+  description = "#{MODULEDISPLAYNAME}# location."
+}
 output "resource_group_name" {
   value       = azurerm_xxx_yyy.this.resource_group_name
   description = "#{MODULEDISPLAYNAME}# Resource group name."
