@@ -1,2 +1,3 @@
-# terraform-azurerm
-Terraform Azurerm repo template
+<!-- BEGIN_TF_DOCS -->
+
+<!-- END_TF_DOCS -->
