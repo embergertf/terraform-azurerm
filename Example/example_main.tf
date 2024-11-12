@@ -32,7 +32,7 @@ module "rg" {
 }
 
 
-# / #{MODULEDISPLAYNAME}# module tests
+#   / #{MODULEDISPLAYNAME}# module tests
 module "#{MODULECODE}#_module_localtest" {
   # Local use
   source = "../../terraform-azurerm-#{MODULECODE}#"
