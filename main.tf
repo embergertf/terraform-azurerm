@@ -33,6 +33,7 @@ module "#{MODULECODE}#_base" {
   additional_name = var.additional_name
   iterator        = var.iterator
   owner           = var.owner
+  additional_tags = var.additional_tags
 
   # Random
   add_random = var.add_random
@@ -55,7 +56,7 @@ resource "azurerm_xxx_yyy" "this" {
   # #{MODULEDISPLAYNAME}# specifics
 
 
-  tags = merge(module.#{MODULECODE}#_base.tags, var.additional_tags)
+  tags = #{MODULECODE}#_base.tags
   lifecycle { ignore_changes = [tags["BuiltOn"]] }
 }
 

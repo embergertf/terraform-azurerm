@@ -75,7 +75,7 @@ variable "owner" {
   default     = null
 }
 variable "additional_tags" {
-  description = "(Optional) Additional tags for the Resource Group."
+  description = "(Optional) Additional tags for the resources."
   type        = map(string)
   default     = null
 }
