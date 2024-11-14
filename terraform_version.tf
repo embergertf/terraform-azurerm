@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   #{MODULEDISPLAYNAME}# required Terraform version
+#   #{MODULEDISPLAYNAME}# module terraform version
 #--------------------------------------------------------------
 terraform {
   required_version = "~> 1.0"

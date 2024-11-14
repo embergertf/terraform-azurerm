@@ -3,7 +3,7 @@
 #
 
 #--------------------------------------------------------------
-#   #{MODULEDISPLAYNAME}# locals
+#   #{MODULEDISPLAYNAME}# module locals
 #--------------------------------------------------------------
 # / locals group 1
 locals {

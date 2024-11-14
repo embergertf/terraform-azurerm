@@ -3,5 +3,5 @@
 #
 
 #--------------------------------------------------------------
-#   #{MODULEDISPLAYNAME}# data resources
+#   #{MODULEDISPLAYNAME}# module data resources
 #--------------------------------------------------------------

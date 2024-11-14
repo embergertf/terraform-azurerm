@@ -24,6 +24,6 @@ naming_values = {
 add_random = null
 rnd_length = null
 
-kv_additional_tags = {
+#{MODULECODE}#_additional_tags = {
   Added_by = "#{MODULECODE}#_module_localtest"
 }
