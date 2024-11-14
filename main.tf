@@ -33,6 +33,7 @@ module "#{MODULECODE}#_base" {
   additional_name = var.additional_name
   iterator        = var.iterator
   owner           = var.owner
+  additional_tags = var.additional_tags
 
   # Random
   add_random = var.add_random
@@ -48,14 +49,14 @@ module "#{MODULECODE}#_base" {
 # - Create the #{MODULEDISPLAYNAME}# Resource
 # -
 resource "azurerm_xxx_yyy" "this" {
-  name     = module.#{MODULECODE}#_base.name
+  name                = module.#{MODULECODE}#_base.name
+  location            = module.#{MODULECODE}#_base.location
   resource_group_name = var.resource_group_name
-  location = module.#{MODULECODE}#_base.location
 
   # #{MODULEDISPLAYNAME}# specifics
 
 
-  tags = merge(module.#{MODULECODE}#_base.tags, var.additional_tags)
+  tags = #{MODULECODE}#_base.tags
   lifecycle { ignore_changes = [tags["BuiltOn"]] }
 }
 

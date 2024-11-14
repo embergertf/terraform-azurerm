@@ -23,6 +23,10 @@ output "resource_group_name" {
   value       = azurerm_xxx_yyy.this.resource_group_name
   description = "#{MODULEDISPLAYNAME}# Resource group name."
 }
+output "tags" {
+  value       = azurerm_xxx_yyy.this.tags
+  description = "#{MODULEDISPLAYNAME}# tags."
+}
 
 /*
 # ############################   Debug                ############################
